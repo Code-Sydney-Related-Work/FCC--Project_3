@@ -4,13 +4,7 @@ function rot13(str)
                 let indexTemp;                 
                 for(let i = 0; i < resultArray.length; i++) // For decoding the string
                 {
-                    indexTemp = str.charCodeAt(i);
-                    if(indexTemp > 64 && indexTemp < 91)
-                    {                        
-                        if(indexTemp > 77){indexTemp = (indexTemp-77)+64;}
-                        else if(indexTemp < 78){indexTemp = indexTemp + 13;}                 
-                    }
-                    resultArray[i] = String.fromCharCode(indexTemp);
+                    XXXXXXXXXXXXXXXXX PORTION OF CODE DELETED TO PROTECT INTELLECTUAL PROPERTY XXXXXXXXXXXXXXX
                 }                            
                 str = resultArray.join("");
                 return str;
